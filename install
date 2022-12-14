@@ -30,3 +30,7 @@ ln -sf $DOTFILES/nvm/default-packages $HOME/.nvm/default-packages
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
     KEEP_ZSHRC=yes sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
+
+git clone https://github.com/jessarcher/zsh-artisan.git $HOME/.oh-my-zsh/custom/plugins/artisan
+
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k

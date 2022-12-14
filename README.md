@@ -1,2 +1,0 @@
-# dotfiles
-Home sweet home

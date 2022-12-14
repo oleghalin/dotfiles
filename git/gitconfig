@@ -88,3 +88,6 @@
     rebase = false
 [init]
     defaultBranch = main
+[user]
+	name = u
+	email = oleghalinua@gmail.com
